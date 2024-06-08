@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: リポジトリをチェックアウト
-      uses: actions/checkout@v4
+        uses: actions/checkout@v4
       - name: Node.js 環境をセットアップ
         uses: actions/setup-node@v4
         with:
